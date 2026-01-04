@@ -28,7 +28,7 @@ def find_ffmpeg():
 
 
 def convert_to_meme_quality(input_path, output_path, quality='medium', custom_config=None):
-    # Converts a video to a low-quality 2000s meme style.
+    # Converts a video to a low-quality.
     if not os.path.exists(input_path):
         print(f"Error: Input file '{input_path}' not found.")
         return
@@ -123,3 +123,4 @@ if __name__ == "__main__":
     }
 
     convert_to_meme_quality(input_file, output_file, args.quality, custom)
+
