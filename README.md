@@ -29,7 +29,7 @@ python converter.py input_video.mp4 -q medium
 - `--vbit`: Custom video bitrate (e.g., `50k`).
 - `--abit`: Custom audio bitrate (e.g., `16k`).
 
-### Example (Maximum "Potato" Quality):
+### For Example:
 ```bash
 python converter.py my_video.mp4 -q low --fps 5
 ```
